@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Usage Manager</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>YouTube Usage Today</h2>
+    <div class="stat-container">
+      <div class="stat">
+        <label>Daily Usage:</label>
+        <span id="dailyUsage">0 min</span>
+      </div>
+      <div class="stat">
+        <label>Continuous Usage:</label>
+        <span id="continuousUsage">0 min</span>
+      </div>
+      <div class="stat">
+        <label>Total Block Time:</label>
+        <span id="blockTime">0 min</span>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="../utils/storage.js"></script>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

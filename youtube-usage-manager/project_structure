@@ -1,0 +1,15 @@
+youtube-usage-manager/
+├── manifest.json
+├── background.js
+├── content.js
+├── block.html
+├── icons/
+│   ├── icon16.png
+│   ├── icon48.png
+│   └── icon128.png
+├── popup/
+│   ├── popup.html
+│   ├── popup.css
+│   └── popup.js
+└── utils/
+    └── storage.js 
